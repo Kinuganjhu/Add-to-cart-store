@@ -1,0 +1,154 @@
+/* App.css */
+.cart {
+  margin-top: 20px;
+}
+
+.cart ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cart img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.cart button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cart button:hover {
+  background-color: #cc0000;
+}
+
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.home > div {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 250px;
+}
+
+.home img {
+  width: 100%;
+}
+
+.home h4 {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.home a {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.home a:hover {
+  background-color: #0056b3;
+}
+/* App.css */
+
+.details-container {
+  padding: 20px;
+}
+
+.cart-link {
+  display: block;
+  text-align: right;
+  margin-bottom: 20px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.product-box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.product-image {
+  width: 200px;
+  margin-right: 20px;
+}
+
+.product-info {
+  flex-grow: 1;
+}
+
+.product-description {
+  margin-bottom: 10px;
+}
+
+.product-category {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.product-actions {
+  display: flex;
+  align-items: center;
+}
+
+.product-price,
+.add-to-cart-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.add-to-cart-btn {
+  background-color: #28a745;
+}
+
+.product-price:hover,
+.add-to-cart-btn:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .product-box {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .product-image {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  
+  .product-info {
+    width: 100%;
+  }
+}
+
